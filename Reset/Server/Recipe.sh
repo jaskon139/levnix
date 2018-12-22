@@ -58,6 +58,7 @@ tftp -g -l /home/tc/kcptun-linux-386-20180316.tar.gz -r /Ingredients/kcptun-linu
 tftp -g -l /home/tc/shadowsocks-local-linux32-1.1.5.gz -r /Ingredients/shadowsocks-local-linux32-1.1.5.gz 10.0.2.2
 tftp -g -l /home/tc/zto.tar.gz -r /Ingredients/zto.tar.gz 10.0.2.2
 tftp -g -l /home/tc/.extras/install_extras.sh -r /Ingredients/install_extras.sh 10.0.2.2
+tftp -g -l /home/tc/config.json -r /Ingredients/config.json 10.0.2.2
 chmod +x /home/tc/.extras/install_extras.sh
 sudo /home/tc/.extras/install_extras.sh
 
